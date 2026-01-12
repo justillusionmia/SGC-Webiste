@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo2.png">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="general.js"></script>
+
+    <title>BATCE Sports & Games Club</title>
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html"><p class="active">Home</p></a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="past.html">Past Events</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <section class="welcome">             
+            <div class="container-md">
+                <div class="wel-content card-purple">
+                    <h1 class="hero-heading text-lg text-center">Welcome to BATCE Sixth Form's SGC</h1>
+                    <div class="wel-text">
+                        <p>At Bishop Anstey High School & Trinity College East, we see sports as more than just 
+                        activities; they're a chance to grow, make friends, and find your own strength, both in games and in life.
+                        </p>
+                        <p>
+                            No matter if you're an experienced player, someone who enjoys sports on the weekends, or you're just starting out-you have a place here. 
+                            Our club focuses on having fun, being fair, staying fit, and building connections. From exciting tournaments to activities that strengthen 
+                            teamwork, we set up chances for every student to get involved, learn, and excel.
+                        </p>
+                        <h3 class="hero-heading text-md text-center">What we do</h3>
+                        <p>
+                            <ul>
+                                <li>Arrange competitions between houses (like football, netball, volleyball, track & field, and more!)</li>
+                                <li>Organize days for casual games to build skills</li>
+                                <li>Encourage good sportsmanship, discipline, and healthy choices</li>
+                                <li>Recognize effort just as much as wins</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>            
+            </div>         
+        </section>
+        <section class="upcoming">
+            <div class="container upcoming">
+                <h1 class="hero-heading text-lg text-center">Upcoming Events</h1>
+                <div class="up-content">
+                    <div class="card-orange">
+                        <div>
+                            <h1 class="text-md text-center"><i class="fa-solid fa-football"></i>   House Football Championship</h1>
+                            <p>Date: Janurary 15th - 23rd
+                            </p>
+                            <p>Get ready for the biggest football showdown of the year! Intercup brings together all BATCE houses in a 
+                                thrilling tournament full of fast passes, big saves, and unforgettable moments. It is not just about 
+                                winning, it is about representing your house with pride, playing with heart, and cheering on your teammates.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-orange">
+                        <div>
+                            <h1 class="text-md text-center"><i class="fa-solid fa-medal"></i>   BATCE Olympics</h1>
+                            <p>Date: 
+                            </p>
+                            <p>Love sports but want to try something new? The BATCE Olympics is your chance! This fun filled festival 
+                                features volleyball, dodgeball, tennis, relay races, and even a few surprise challenges. You can team 
+                                up with your form class, your closest friends, or even mix students and teachers for a truly unique squad.  
+                            </p>
+                            <p>
+                                No need to be a pro, just bring your energy, and your love for friendly competition. Points add up 
+                                across events, and the team with the best mix of skill and spirit takes home the Olympic Cup. Everyone plays, everyone belongs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-orange">
+                        <div>
+                            <h1 class="text-md text-center"><i class="fa-solid fa-gamepad"></i>   Video Games Day</h1>
+                            <p>Date: 
+                            </p>
+                            <p>Yes, gaming counts as a sport too! On Video Games Day, we turn the common room into a buzzing arena where you can 
+                                test your skills in FIFA, Rocket League, Mario Kart, and more. Play solo or grab a friend for doubles you decide how you compete.  
+                            </p>
+                            <p>
+                                It is all about good vibes, fair play, and having a great time. We will have snacks, music, and plenty of chances to challenge your
+                                classmates (or maybe even your favorite teacher!). Whether you game every day or just once in a while, you will fit right in.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section card-purple" id="suggest">
+            <h2 class="text-center text-bt">Suggest Your Next Event</h2>
+            <form id="event-suggestion-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required
+                        placeholder="Enter your full name"
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        placeholder="your.email@example.com"
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="event">Which event would you like to see next?</label>
+                    <select id="event" name="event" required>
+                        <option value="">Select an event type</option>
+                        <option value="interhouse">Interhouse Event</option>
+                        <option value="volleyball">Volleyball tournament</option>
+                        <option value="football">Football tournament</option>
+                        <option value="tennis">Tennis tournament</option>
+                        <option value="dodgeball">Dodgeball tournament</option>
+                        <option value="other">Other (please specify)</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Suggestion</button>
+            </form>
+    </section>
+
+
+         <footer class="footer bg-grey">
+            <div class="footer-conatiner">
+                <div class="footer-grid">
+                    <!--Column One-->
+                    <div>
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                             </div>
+                            <p>Word hard, <br>Play hard as One</p>
+                    </div>
+                    <!--Column Two-->
+                    <div>
+                        <h4>Club</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Meet the Team</a></li>
+                            <li><a href="#">Mission</a></li>
+                        </ul>
+                    </div>
+                    <!--Column Three-->
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Events Calendar</a></li>
+                            <li><a href="#">Intercup Registration</a></li>
+                            <li><a href="#">BATCE Olympics Sign-Up</a></li>
+                            <li><a href="#">Video Games Day Info  </a></li>
+                        </ul>
+                    </div>
+                    <!--Column Four-->
+                    <div>
+                        <h4>Contact & Connect</h4>
+                        <ul>
+                            <li><a href="#">Email: sgcbatce@gmail.com</a></li>
+                            <li><a href="https://maps.app.goo.gl/H6KqqWvSTYrLLNy57">Location: BATCE</a></li>
+                            <li>Phone: 868-123-4567</li>
+                        </ul>
+                    </div>
+                </div>
+            <div>
+                <div><hr class="line"></div>
+                <div class="footer-row">
+                    <a href="https://www.tiktok.com/@batcesgctt?_r=1&_t=ZM-92zMMelxwpn"><i class="fab fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/sgc.batce/?igsh=MXA2MjRzNjFkcXJiZQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>    
+            </div>        
+    </footer>
+    </body>
+</html>
